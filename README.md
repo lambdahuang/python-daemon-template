@@ -2,6 +2,12 @@
 
 A template of python daemon.
 
+## initialize by tox
+
+```
+./tox
+```
+
 ## Start the service
 
 ```
