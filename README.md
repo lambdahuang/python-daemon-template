@@ -5,7 +5,7 @@ A template of python daemon.
 ## initialize by tox
 
 ```
-./tox
+tox
 ```
 
 ## Start the service

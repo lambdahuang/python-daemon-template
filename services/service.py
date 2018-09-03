@@ -9,6 +9,7 @@ class MyService(Service):
         super(MyService, self).__init__(*args, **kwargs)
         self.logger.addHandler(SysLogHandler(address=find_syslog(),
                                facility=SysLogHandler.LOG_DAEMON))
+
         # self.logger.addHandler(logger)
         self.logger.setLevel(logging.INFO)
 
